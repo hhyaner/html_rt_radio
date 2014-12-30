@@ -1,0 +1,548 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="format-detection" content="telephone=no" />
+	<title></title>
+	<meta name="keywords" content="" >
+    <meta name="description" content="">
+	<link rel="stylesheet" href="../css/global.css" />
+	<link rel="stylesheet" href="../css/css.css" />
+</head>
+<body>
+	<div class="header">
+		<div class="wrap header_logo">
+			<div class="logo">
+				<img src="../images/logo.png"/>
+			</div>
+			<div class="fn_right hd_right">
+				<a href="#" class="do_home"></a>
+				<a href="#" class="do_collection"></a>
+			</div>
+		</div>
+		<div class="wrap header_nav">
+			<!-- <ul class="w_nav">
+				<li class="cur"><a href="#">首页</a></li>
+				<li><a href="#">关于频率</a></li>
+				<li><a href="#">主持人</a></li>
+				<li><a href="#">节目会听</a></li>
+				<li><a href="#">活动专题</a></li>
+				<li><a href="#">互动中心</a></li>
+				<li><a href="#">节目表</a></li>
+			</ul> -->
+			<div id="menu">
+			    <ul id="nav">
+			        <li><a class="nav_on" id="mynav0" onmouseover="javascript:qiehuan(0)" href="http://www.lanrentuku.com/"><span>首 页</span></a>
+			        </li>
+
+			        <li class="menu_line"></li>
+			        <li><a href="http://www.lanrentuku.com/" onmouseover="javascript:qiehuan(1)" id="mynav1" class=""><span>懒人图库</span></a>
+			        </li>
+			        <li class="menu_line"></li>
+			        <li><a href="#" onmouseover="javascript:qiehuan(2)" id="mynav2" class=""><span>JS代码</span></a>
+			        </li>
+			        <li class="menu_line"></li>
+			        <li><a href="#" onmouseover="javascript:qiehuan(3)" id="mynav3" class=""><span>PNG图标</span></a>
+			        </li>
+			        <li class="menu_line"></li>
+			        <li><a href="#" onmouseover="javascript:qiehuan(4)" id="mynav4" class=""><span>技术文档</span></a>
+			        </li>
+			        <li class="menu_line"></li>
+			        <li><a href="#" onmouseover="javascript:qiehuan(5)" id="mynav5" class=""><span>广告达人</span></a>
+			        </li>
+			        <li class="menu_line"></li>
+			        <li><a href="#" onmouseover="javascript:qiehuan(6)" id="mynav6" class=""><span>网页素材</span></a>
+			        </li>
+			        <li class="menu_line"></li>
+			        <li><a href="#" onmouseover="javascript:qiehuan(7)" id="mynav7" class=""><span>设计欣赏</span></a>
+			        </li>
+			        <li class="menu_line"></li>
+			        <li><a class="" id="mynav8" onmouseover="javascript:qiehuan(8)" href="#"><span>矢量素材</span></a>
+			        </li>
+			        <li class="menu_line"></li>
+			        <li><a class="" id="mynav9" onmouseover="javascript:qiehuan(9)" href="#" target="_blank"><span>懒人论坛</span></a>
+			        </li>
+			        <li class="menu_line"></li>
+			    </ul>
+			    <div id="menu_con">
+			        <div id="qh_con0" style="display: block;">
+			            <ul>
+			                <li><a href="http://www.lanrentuku.com/"><span>栏目名称1</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称2</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称3</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <div id="qh_con1" style="display: none;">
+			            <ul>
+			                <li><a href="#"><span>栏目名称4</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称5</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称6</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <div id="qh_con2" style="display: none;">
+			            <ul>
+			                <li><a href="#"><span>栏目名称7</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称8</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称9</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <div id="qh_con3" style="display: none;">
+			            <ul>
+			                <li><a href="#"><span>栏目名称10</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称11</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称12</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <div id="qh_con4" style="display: none;">
+			            <ul>
+			                <li><a href="#"><span>栏目名称13</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称14</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称15</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <div id="qh_con5" style="display: none;">
+			            <ul>
+			                <li><a href="#"><span>栏目名称16</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称17</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称18</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <div id="qh_con6" style="display: none;">
+			            <ul>
+			                <li><a href="#"><span>栏目名称19</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称20</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称21</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <div id="qh_con7" style="display: none;">
+			            <ul>
+			                <li><a href="#"><span>栏目名称22</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称23</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称24</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <div id="qh_con8" style="display: none;">
+			            <ul>
+			                <li><a href="#"><span>栏目名称25</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称26</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称27</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <div id="qh_con9" style="display: none;">
+			            <ul>
+			                <li><a href="#"><span>栏目名称28</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称29</span></a>
+			                </li>
+			                <li class="menu_line2"></li>
+			                <li><a href="#"><span>栏目名称30</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			    </div>
+		</div>
+
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="focusNews fn_clear">
+			<div class="picNews">
+				<div id="J_news">
+					<div><a href="news.html" target="_blank">
+					<img src="../images/test_img_02.png" width="430" height="300" style="width:430px; height:300px;"/>
+				</a></div><div><a href="news.html" target="_blank">
+					<img src="../images/test_img_01.png" width="430" height="300" style="width:430px; height:300px;"/>
+				</a></div>	
+				</div>
+			</div>
+			<ul class="fnews">
+				<li class="fnews-item fnews-item-first">
+					<h3><a href="news.html" target="_blank">省委督导组来我局检查健全社会</a></h3>
+					<p class="fnews-item-text">
+					    张谷局长从当前大中型水利水电建设和移民安置等政策的梳理、制定，工作流程的规范和移民工作中机制、体制、法规体系等进行了补充汇报。张谷局长从当前大中型水利水电建设和移民安置等政策的梳理、制定
+					    <a href="news.html" class="fnews-item-more" target="_blank">详细&gt;&gt;</a>
+					</p>
+				</li>
+			</ul>
+			<ul class="dateNews fn-clear">
+				<li><a href="news.html" target="_blank"><span>·</span>中国加强棚户区改造中国加强棚户区改造 2014年计划改造470万户以上</a><span>2014.8.27</span></li>
+				<li><a href="news.html" target="_blank"><span>·</span>中国加强棚户区改造 2014年计划改造470万户以上</a><span>2014.8.27</span></li>
+				<li><a href="news.html" target="_blank"><span>·</span>中国加强棚户区改造 2014年计划改造470万户以上</a><span>2014.8.27</span></li>
+				<li><a href="news.html" target="_blank"><span>·</span>中国加强棚户区改造 2014年计划改造470万户以上</a><span>2014.8.27</span></li>
+				<li><a href="news.html" target="_blank"><span>·</span>中国加强棚户区改造 2014年计划改造470万户以上</a><span>2014.8.27</span></li>
+				<li><a href="news.html" target="_blank"><span>·</span>中国加强棚户区改造 2014年计划改造470万户以上</a><span>2014.8.27</span></li>
+			</ul>
+		</div>
+		<div class="i_hot_modules fn_clear">
+			<ul>
+				<li><a href="#"><img src="../images/test_img_index01.png" width="310" height="148" alt="推荐的模块"/></a></li>
+				<li><a href="#"><img src="../images/test_img_index02.png" width="310" height="148" alt="推荐的模块"/></a></li>
+				<li><a href="#"><img src="../images/test_img_index01.png" width="310" height="148" alt="推荐的模块"/></a></li>
+			</ul>
+		</div>
+		<div class="i_tr_item fn_clear">
+			<div class="fn_left item_column i_fm">
+				<div class="column-title">
+					<h2><span style="font-size:24px;">F</span>m<span style="font-size:20px;">99.8</span>广播在线同步收听</h2>
+				</div>
+				<div class="column-conn">
+					<div class="i_fm_wrap">
+						<div class="player">
+
+						</div>
+						<div class="playing">
+							<p class="playing_mark"><span class=""></span>正在播出</p>
+							<div class="playing_detail">
+								蔷薇之旅生活家 15:00-16:30<br/>
+								主持人：红岩 志远 源源
+							</div>
+						</div>
+						<div class="play_item">
+							即将播出<a href="#">【查看节目表】</a><br/>
+							蔷薇之旅生活家 15:00-16:30<br/>
+							主持人：红岩 志远 源源
+						</div>
+						<div class="play_item">
+							即将播出<a href="#">【查看节目表】</a><br/>
+							蔷薇之旅生活家 15:00-16:30<br/>
+							主持人：红岩 志远 源源
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fn_right" style="width:670px;">
+				<div class="item_column i_about">
+					<div class="column-title">
+						<h2>关于频率</h2>
+						<a class="more" href="#" target="_blank">MORE</a>
+					</div>
+					<div class="column-conn">都电台的发展历史，应当追溯到上个世纪的五十年代。那时，发射功率小，节目单一。八十年代以后，广播进入了一个发展时期。1987年成都电台提出：“从听众的需要出发，发挥广播的特长和省会城市台的优势，在‘活’字上下工夫，在‘服务’上做文章。在接近性上努力，做到‘寓宣传于服务之中，寓教育于娱乐之中”。根据这一主导发展思路，电台加大了新闻改革力度，信息多，时效强，日播新闻时段又从每天3档增加到每天10档。，寓教育于娱乐之中”。根据这一主导发展思路，电台加大了新闻改革力度，信息多，时效强，日播新闻时段又从每天3档增加到每天10档。
+					</div>
+				</div>
+				<div class="i_c_cover i_news item_colunm fn_left ">
+					<a href="#"><img src="../images/test_img_index_06.png" width="320" height="224" style="width:320px;height:224px"/></a>
+				</div>
+				<div class="i_hot_news item_colunm i_news fn_right">
+					<div class="column-title">
+						<h2>热点新闻</h2>
+						<a class="more" href="#" target="_blank">MORE</a>
+					</div>
+					<div class="column-conn">
+						<ul class="i_news_list">
+							<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+							<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+							<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+							<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+							<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+							<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="i_tr_item fn_clear">
+			<div class="item_colunm i_nt_radio fn_left">
+				<div class="column-title">
+					<h2>网络收听排行榜</h2>
+					<a class="more" href="#" target="_blank">MORE</a>
+				</div>
+				<div class="column-conn">
+					<ul class="i_radio_list">
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a><span class="icon_listen"></span></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a><span class="icon_listen"></span></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a><span class="icon_listen"></span></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a><span class="icon_listen"></span></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a><span class="icon_listen"></span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="i_financial_news item_colunm i_news fn_left">
+				<div class="column-title">
+					<h2>经济新闻</h2>
+					<a class="more" href="#" target="_blank">MORE</a>
+				</div>
+				<div class="column-conn">
+					<ul class="i_news_list">
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="i_local_news item_colunm i_news fn_right">
+				<div class="column-title">
+					<h2>本地时政新闻</h2>
+					<a class="more" href="#" target="_blank">MORE</a>
+				</div>
+				<div class="column-conn">
+					<ul class="i_news_list">
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="i_tr_item i_host item_colunm">
+			<div class="column-title">
+				<h2>主持人</h2>
+				<a class="more" href="#" target="_blank">MORE</a>
+			</div>
+			<div class="column-conn fn_clear">
+				<div class="i_host_impt_box">
+					<dl class="i_host_impt">
+						<dt>本周强推</dt>
+						<dd><a href="#"><img src="../images/test_img_index02.png" width="228" height="100"/></a></dd>
+						<dd><a href="#"><img src="../images/test_img_index02.png" width="228" height="100"/></a></dd>
+					</dl>
+				</div>
+				<div class="i_host_impt_box" style="margin-left:10px;">
+					<dl class="i_host_impt">
+						<dt>人气主播</dt>
+						<dd><a href="#"><img src="../images/test_img_index02.png" width="228" height="100"/></a></dd>
+						<dd><a href="#"><img src="../images/test_img_index02.png" width="228" height="100"/></a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="i_tr_item fn_clear">
+			<div class="i_house item_colunm i_news fn_left">
+				<div class="column-title">
+					<h2>房产新闻</h2>
+					<a class="more" href="#" target="_blank">MORE</a>
+				</div>
+				<div class="column-conn">
+					<ul class="i_news_list">
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#" target="_blank">台加大了新闻改革力度，信息多，时效强</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="i_people item_colunm i_news fn_left">
+				<div class="column-title">
+					<h2>房产新闻</h2>
+					<a class="more" href="#" target="_blank">MORE</a>
+				</div>
+				<div class="column-conn">
+					<ul class="i_news_list">
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="i_short_op item_colunm fn_right">
+				<ul>
+					<li><a href="#"><img src="../images/test_img_index03.png" width="268" height="74"/></a></li>
+					<li><a href="#"><img src="../images/test_img_index03.png" width="268" height="74"/></a></li>
+					<li><a href="#"><img src="../images/test_img_index03.png" width="268" height="74"/></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--@vicky-->
+		<div class="i_tr_item fn_clear" style="width:990px;">
+			<div class="i_info item_colunm i_news">
+				<div class="column-title">
+					<h2>房产新闻</h2>
+					<a class="more" href="#" target="_blank">MORE</a>
+				</div>
+				<div class="column-conn">
+					<ul class="i_news_list">
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#" target="_blank">台加大了新闻改革力度，信息多，时效强</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="i_info item_colunm i_news">
+				<div class="column-title">
+					<h2>房产新闻</h2>
+					<a class="more" href="#" target="_blank">MORE</a>
+				</div>
+				<div class="column-conn">
+					<ul class="i_news_list">
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#" target="_blank">台加大了新闻改革力度，信息多，时效强</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="i_info item_colunm i_news">
+				<div class="column-title">
+					<h2>房产新闻</h2>
+					<a class="more" href="#" target="_blank">MORE</a>
+				</div>
+				<div class="column-conn">
+					<ul class="i_news_list">
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#">台加大了新闻改革力度，信息多，时效强</a></li>
+						<li><a href="#" target="_blank">台加大了新闻改革力度，信息多，时效强</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--/@vicky-->
+		<div class="i_tr_item i_links">
+			<h2 class="i_links_tit">友情链接</h2>
+			<div class="i_links_hr_short"></div>
+			<div class="i_links_hr_long"></div>
+			<ul class="i_links_list fn_clear">
+				<li><a href="#" target="_blank"><img src="../images/test_img_index04.png" width="100" height="34"></a></li>
+				<li><a href="#" target="_blank"><img src="../images/test_img_index04.png" width="100" height="34"></a></li>
+				<li><a href="#" target="_blank"><img src="../images/test_img_index04.png" width="100" height="34"></a></li>
+				<li><a href="#" target="_blank"><img src="../images/test_img_index04.png" width="100" height="34"></a></li>
+				<li><a href="#" target="_blank"><img src="../images/test_img_index04.png" width="100" height="34"></a></li>
+				<li><a href="#" target="_blank"><img src="../images/test_img_index04.png" width="100" height="34"></a></li>
+				<li><a href="#" target="_blank"><img src="../images/test_img_index04.png" width="100" height="34"></a></li>
+				<li><a href="#" target="_blank"><img src="../images/test_img_index04.png" width="100" height="34"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="wrap">
+			<div class="fn_left logo_gray ">
+				<img src="../images/logo_gray.png"/>
+			</div>
+			<div class="fn_right copyright">
+				<p><em class="web_name item">成都人民广播电台新闻频率</em><span class="item">Copyright  2012 KeyGo Technology Ltd.</span></p>
+				<p><span class="item">闽ICP备11002613号</span><span class="item">信息网络传播视听节目许可证号 12138</span><span class="item">技术支持：<a href="#">瑞唐科技有限公司</a></span></p>
+			</div>
+		</div>
+	</div>
+	<div class="lh_banner" style="top:140px; right:40px;">
+		<p>
+			<a href="#"><img src="../images/logo_2.png" width="133" height="167"/></a>
+		</p>
+		<div class="qr_wrap">
+			<div class="qr_wrap_tit">扫一扫二维码</div>
+			<p>
+				<a href="#"><img src="../images/qr.png" width="106" height="106"/></a>
+			</p>
+		</div>
+		<p class="phone">
+			投播热线<br/>400-8888-8888
+		</p>
+		<div class="shortcut">
+			<ul>
+				<li><a href="#"><img src="../images/icon_weibo.png"/></a></li>
+				<li><a href="#"><img src="../images/icon_msgboard.png"/></a></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="../js/slides.min.jquery.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	$('#J_news').slidesjs({
+		 width: 425,
+         height: 268,
+        navigation: {
+        	active:false,
+          effect: "slide"
+        },
+        pagination: {
+        	active:true,
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 400
+          }
+        },
+        play:{        	auto:true,
+        	interval:5000,
+        	swap: true,
+          	pauseOnHover: true,
+          	restartDelay: 2500
+        }
+      });
+});
+function qiehuan(num){
+		for(var id = 0;id<=9;id++)
+		{
+			if(id==num)
+			{
+				document.getElementById("qh_con"+id).style.display="block";
+				document.getElementById("mynav"+id).className="nav_on";
+			}
+			else
+			{
+				document.getElementById("qh_con"+id).style.display="none";
+				document.getElementById("mynav"+id).className="";
+			}
+		}
+	}
+
+		
+</script>
+</body>
+</html>
